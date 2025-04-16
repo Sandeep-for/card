@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="card">
+    <p id="id0"></p>
+    <img id="id1">
+    <h1 id="id2"></h1>
+    <h1 id="id3"></h1>
+    <h1 id="id4"></h1>
+    <h1 id="id5"></h1>
+</div>
+    <script>
+        let id1=document.getElementById("id1")
+        id1.setAttribute("src","../assets/images/sandeep.jpg.jpeg")
+        id1.setAttribute("height","500px")
+        id1.setAttribute("width","500px")
+        id1.style.borderRadius="25px";
+        id1.style.margin="25px"        
+        let id2=document.getElementById("id2")
+        id2.innerHTML="Balakristi Sandeep Kumar"
+        id2.style.color="orange"
+        id2.style.margin="25px"
+        let id3=document.getElementById("id3")
+        id3.innerHTML="DOB:16/05/1999"
+        id3.style.color="green"
+        id3.style.margin="25px"
+        let id4=document.getElementById("id4")
+        id4.innerHTML="Location:Hyderabad,Telangana"
+        id4.style.color="red"
+        id4.style.margin="25px"
+        let id=document.getElementById("id5")
+        id.innerHTML="Work Experience:Having 2 years of<br> Experience in Accenture"
+        id.style.color="blue"
+        id.style.margin="25px"
+        let id0=document.getElementById("id0")  
+        id0.style.border="thick"
+        id0.setAttribute("height","700px")  
+        let id_card=document.getElementById("card")
+        id_card.style.backgroundColor="aqua";
+        id_card.style.width="50vw";
+        id_card.style.border="2px solid black"
+        id_card.style.padding="35px"
+    </script>
+</body>
+</html>
